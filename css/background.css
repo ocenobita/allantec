@@ -1,0 +1,250 @@
+/*Soft reset do CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: auto 100vh; 
+    height: 100vh;
+    font-size: 12px;
+    background-color: #FFFFFF;
+}
+
+header{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ponto-red {
+    border-radius: 100%;
+    position: absolute;
+    animation: infinite 4s pontoRed;
+    background-color: #FF0000;
+}
+
+@keyframes pontoRed{
+    0%{
+        width: 8px;
+        height: 8px;
+        opacity: .1;
+        top: 66vh;
+        left: 1vw;
+    }
+    25%{
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        left: 25vw;
+        box-shadow: 20px 20px 15px #FF0000;
+    }
+    100%{
+        width: 5px;
+        height: 5px;
+        opacity: .1;
+        top: 10vh;
+        left: 100vw;
+    }
+}
+
+.ponto-green{
+    border-radius: 100%;
+    position: absolute;
+    animation: infinite 4s pontoGreen;
+    background-color: #00FF00;
+    box-shadow: #00FF00;
+}
+
+@keyframes pontoGreen{
+    0%{
+        width: 60px;
+        height: 6px;
+        opacity: .1;
+        top: 10vh;
+        left: 100vw;
+        box-shadow: 100px 100px 80px;
+
+    }
+    25%{
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        left: 65vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: -20px 20px 15px #00FF00;
+    }
+    100%{
+        width: 4px;
+        height: 4px;
+        opacity: .1;
+        top: 66vh;
+        left: 1vw;
+        box-shadow: 20px 2px 8px;
+    }
+}
+
+.ponto-blue{
+    border-radius: 100%;
+    position: absolute;
+    animation: infinite 5s pontoBlue;
+    background-color: #0000FF;
+    box-shadow: #0000FF;
+}
+
+@keyframes pontoBlue{
+    0%{
+        width: 4px;
+        height: 4px;
+        opacity: .1;
+        top: 15vh;
+        left: 1vw;
+        box-shadow: 100px 100px 80px;
+
+    }
+    35%{
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        left: 35vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: 20px 20px 15px #0000FF;
+    }
+    61%{
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        top: 35vh;
+        left: 65vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: -20px 10px 15px #0000FF;
+    }
+    
+    100%{
+        width: 4px;
+        height: 4px;
+        opacity: .1;
+        top: 66vh;
+        left: 1vw;
+        box-shadow: 20px 2px 8px;
+    }
+}
+
+.ponto-purple{
+    border-radius: 100%;
+    position: absolute;
+    animation: infinite 3s pontoPurple;
+    background-color: purple;
+    box-shadow: purple;
+}
+
+@keyframes pontoPurple{
+    0%{
+        width: 6px;
+        height: 6px;
+        opacity: .1;
+        top: 10vh;
+        left: 100vw;
+        box-shadow: 100px 100px 80px;
+
+    }
+    45%{
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        left: 65vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: -20px 20px 15px purple;
+    }
+    100%{
+        width: 4px;
+        height: 4px;
+        opacity: .1;
+        top: 66vh;
+        left: 1vw;
+        box-shadow: 20px 2px 8px;
+    }
+}
+
+.ponto-yellow{
+    border-radius: 100%;
+    position: absolute;
+    animation: infinite 2s pontoYellow;
+    background-color: yellow;
+    box-shadow: yellow;
+}
+
+@keyframes pontoYellow{
+    0%{
+        width: 8px;
+        height: 8px;
+        opacity: .1;
+        top: 66vh;
+        left: 1vw;
+        box-shadow: 100px 100px 80px;
+
+    }
+    45%{
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+        left: 25vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: 20px -20px 15px yellow;
+    }
+    100%{
+        width: 5px;
+        height: 5px;
+        opacity: .1;
+        top: 10vh;
+        left: 100vw;
+        box-shadow: 20px 2px 8px;
+    }
+}
+
+.ponto-orange{
+    border-radius: 100%;
+    position: absolute;
+    animation: infinite 5s pontoOrange;
+    background-color: orange;
+    box-shadow: orange;
+}
+@keyframes pontoOrange{
+    0%{
+        width: 4px;
+        height: 4px;
+        opacity: .1;
+        top: 66vh;
+        left: 100vw;
+        box-shadow: 100px 100px 80px;
+
+    }
+    15%{
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        left: 35vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: 20px 20px 15px orange;
+    }
+    75%{
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        top: 35vh;
+        left: 65vw;
+        box-shadow: 2px 2px 50px;
+        box-shadow: -20px 10px 15px orange;
+    }
+    100%{
+        width: 4px;
+        height: 4px;
+        opacity: .1;
+        top: 15vh;
+        left: 100vw;
+        box-shadow: 20px 2px 8px;
+    }
+}

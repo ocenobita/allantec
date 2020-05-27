@@ -1,0 +1,57 @@
+.menuSuperior{
+    transition: all .4s;
+    background-color: white;
+    opacity: 1;
+    box-shadow: 0px 5px 300px 50px rgb(58, 84, 196);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgb(58, 84, 196, .8);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuSuperior:hover{
+    transition: all .4s;
+    box-shadow: 0px 5px 300px 100px orange;
+}
+
+.menuSuperior:active{
+    transition: all .2s;
+    box-shadow: 0px 5px 300px 100px red;
+}
+
+.menuSuperior a{
+    transition: all .4s;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+
+}
+
+.menuSuperior a:hover{
+    transition: all .4s;
+    text-shadow: 0px 2px 20px black;
+    font-size:  120%;
+    color: orange;
+}
+
+.menuSuperior a:active{
+    transition: all .2s;
+    text-shadow: 0px 2px 20px blue;
+    font-size:  140%;
+    color: red;
+}
+.menuSuperior ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuSuperior li{
+    list-style: none;
+    font-size: 30px;
+}
